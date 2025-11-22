@@ -5,6 +5,12 @@ import { MessageCircle, ShoppingBag } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
 import { toast } from "sonner";
 import { formatPrice } from "@/utils/whatsapp";
+import vestidoNoir from "@/assets/products/vestido-noir.jpg";
+import conjuntoExecutivo from "@/assets/products/conjunto-executivo.jpg";
+import blusaSofisticada from "@/assets/products/blusa-sofisticada.jpg";
+import vestidoCocktail from "@/assets/products/vestido-cocktail.jpg";
+import saiaMidi from "@/assets/products/saia-midi.jpg";
+import casacoAlfaiataria from "@/assets/products/casaco-alfaiataria.jpg";
 
 interface Product {
   id: string;
@@ -25,7 +31,7 @@ const Products = () => {
       name: "Vestido Elegante Noir",
       price: 35000,
       description: "Vestido longo em tecido premium com corte elegante",
-      image: "/api/placeholder/400/500",
+      image: vestidoNoir,
       category: "vestidos",
     },
     {
@@ -33,7 +39,7 @@ const Products = () => {
       name: "Conjunto Executivo",
       price: 42000,
       description: "Conjunto blazer e calça para look profissional",
-      image: "/api/placeholder/400/500",
+      image: conjuntoExecutivo,
       category: "conjuntos",
     },
     {
@@ -41,7 +47,7 @@ const Products = () => {
       name: "Blusa Sofisticada",
       price: 18000,
       description: "Blusa em seda com detalhes refinados",
-      image: "/api/placeholder/400/500",
+      image: blusaSofisticada,
       category: "blusas",
     },
     {
@@ -49,7 +55,7 @@ const Products = () => {
       name: "Vestido Cocktail",
       price: 38000,
       description: "Perfeito para eventos especiais",
-      image: "/api/placeholder/400/500",
+      image: vestidoCocktail,
       category: "vestidos",
     },
     {
@@ -57,7 +63,7 @@ const Products = () => {
       name: "Saia Midi Plissada",
       price: 22000,
       description: "Saia elegante em tecido fluido",
-      image: "/api/placeholder/400/500",
+      image: saiaMidi,
       category: "saias",
     },
     {
@@ -65,7 +71,7 @@ const Products = () => {
       name: "Casaco Alfaiataria",
       price: 45000,
       description: "Casaco estruturado de alta qualidade",
-      image: "/api/placeholder/400/500",
+      image: casacoAlfaiataria,
       category: "casacos",
     },
   ];

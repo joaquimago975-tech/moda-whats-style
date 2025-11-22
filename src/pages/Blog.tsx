@@ -1,6 +1,12 @@
 import { Card } from "@/components/ui/card";
 import { Calendar, User, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import tendenciasPrimavera from "@/assets/blog/tendencias-primavera.jpg";
+import guardaRoupaCapsula from "@/assets/blog/guarda-roupa-capsula.jpg";
+import vestidoPreto from "@/assets/blog/vestido-preto.jpg";
+import looksExecutivos from "@/assets/blog/looks-executivos.jpg";
+import promocao from "@/assets/blog/promocao.jpg";
+import acessorios from "@/assets/blog/acessorios.jpg";
 
 interface BlogPost {
   id: string;
@@ -21,7 +27,7 @@ const Blog = () => {
       author: "Boutique Elegance",
       date: "15 de Março, 2024",
       category: "Tendências",
-      image: "/api/placeholder/800/500",
+      image: tendenciasPrimavera,
     },
     {
       id: "2",
@@ -30,7 +36,7 @@ const Blog = () => {
       author: "Boutique Elegance",
       date: "10 de Março, 2024",
       category: "Dicas de Estilo",
-      image: "/api/placeholder/800/500",
+      image: guardaRoupaCapsula,
     },
     {
       id: "3",
@@ -39,7 +45,7 @@ const Blog = () => {
       author: "Boutique Elegance",
       date: "5 de Março, 2024",
       category: "Essenciais",
-      image: "/api/placeholder/800/500",
+      image: vestidoPreto,
     },
     {
       id: "4",
@@ -48,7 +54,7 @@ const Blog = () => {
       author: "Boutique Elegance",
       date: "1 de Março, 2024",
       category: "Dicas de Estilo",
-      image: "/api/placeholder/800/500",
+      image: looksExecutivos,
     },
     {
       id: "5",
@@ -57,7 +63,7 @@ const Blog = () => {
       author: "Boutique Elegance",
       date: "25 de Fevereiro, 2024",
       category: "Promoções",
-      image: "/api/placeholder/800/500",
+      image: promocao,
     },
     {
       id: "6",
@@ -66,7 +72,7 @@ const Blog = () => {
       author: "Boutique Elegance",
       date: "20 de Fevereiro, 2024",
       category: "Acessórios",
-      image: "/api/placeholder/800/500",
+      image: acessorios,
     },
   ];
 
